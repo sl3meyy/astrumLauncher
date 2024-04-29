@@ -9,7 +9,7 @@ using System.Threading;
 using System;
 using System.Diagnostics;
 using System.Windows.Forms;
-namespace WinFormsApp1 //Test lollolool
+namespace WinFormsApp1 
 {
     public partial class Form1 : Form
     {
