@@ -54,8 +54,6 @@ namespace WinFormsApp1
             label6 = new Label();
             button10 = new Button();
             comboBox1 = new ComboBox();
-            progressBar2 = new ProgressBar();
-            button11 = new Button();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)errorProvider2).BeginInit();
             SuspendLayout();
@@ -269,31 +267,12 @@ namespace WinFormsApp1
             comboBox1.TabIndex = 28;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
-            // progressBar2
-            // 
-            progressBar2.Location = new Point(12, 480);
-            progressBar2.Name = "progressBar2";
-            progressBar2.Size = new Size(618, 26);
-            progressBar2.TabIndex = 29;
-            // 
-            // button11
-            // 
-            button11.Location = new Point(237, 415);
-            button11.Name = "button11";
-            button11.Size = new Size(149, 50);
-            button11.TabIndex = 30;
-            button11.Text = "button11";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PowderBlue;
             ClientSize = new Size(1075, 514);
-            Controls.Add(button11);
-            Controls.Add(progressBar2);
             Controls.Add(comboBox1);
             Controls.Add(button10);
             Controls.Add(label6);
@@ -348,7 +327,5 @@ namespace WinFormsApp1
         private Label label6;
         private Button button10;
         private ComboBox comboBox1;
-        private ProgressBar progressBar2;
-        private Button button11;
     }
 }
